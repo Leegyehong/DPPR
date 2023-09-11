@@ -1,0 +1,3 @@
+configparser
+boto3
+pymysql
