@@ -1,3 +1,4 @@
 configparser
 boto3
 pymysql
+psycopg2-binary
