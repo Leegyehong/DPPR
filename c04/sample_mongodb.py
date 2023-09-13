@@ -8,10 +8,8 @@ parser.read("pipeline.conf")
 hostname = parser.get("mongo_config", "hostname")
 username = parser.get("mongo_config", "username")
 password = parser.get("mongo_config", "password")
-database_name = parser.get("mongo_config",
-                    "database")
-collection_name = parser.get("mongo_config",
-                    "collection")
+database_name = parser.get("mongo_config","database")
+collection_name = parser.get("mongo_config","collection")
 
 mongo_client = MongoClient(
                 "mongodb+srv://" + username
