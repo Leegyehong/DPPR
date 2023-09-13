@@ -3,3 +3,5 @@ boto3
 pymysql
 psycopg2-binary
 mysql-replication
+pymongo
+dnspython
