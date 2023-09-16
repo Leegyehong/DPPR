@@ -69,7 +69,7 @@ fp.close()
 parser = configparser.ConfigParser()
 parser.read("pipeline.conf")
 access_key = parser.get("aws_boto_credentials",
-                "access_key")
+                "access_key") 
 secret_key = parser.get("aws_boto_credentials",
                 "secret_key")
 bucket_name = parser.get("aws_boto_credentials",
