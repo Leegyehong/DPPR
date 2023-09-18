@@ -6,3 +6,4 @@ mysql-replication
 pymongo
 dnspython
 requests
+urllib3
