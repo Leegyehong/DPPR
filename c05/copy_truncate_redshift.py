@@ -20,7 +20,7 @@ iam_role = parser.get("aws_creds", "iam_role")
 bucket_name = parser.get("aws_boto_credentials", "bucket_name")
 
 # truncate the destination table
-sql = "TRUNCATE public.Orders;"
+sql = "TRUNCATE public.orders3;"
 cur = rs_conn.cursor()
 cur.execute(sql)
 
