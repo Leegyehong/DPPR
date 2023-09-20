@@ -20,7 +20,7 @@ WITH customer_pit AS
       AND cs.LastUpdated <= o.OrderDate
   GROUP BY cs.CustomerId, o.OrderId
 )
-SELECT
+SELECT 
   o.OrderDate AS order_date,
   cs.CustomerCountry AS order_country,
   SUM(o.OrderTotal) AS total_revenue,
