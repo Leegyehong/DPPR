@@ -1,2 +1,2 @@
 select count(*)
-from Orders_full
+from Orders_full 
